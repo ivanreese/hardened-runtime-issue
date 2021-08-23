@@ -1,0 +1,15 @@
+{
+  "name": "HardenedRuntimeIssue",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "main": "main.js",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.59",
+    "dotenv": "^10.0.0",
+    "electron": "^13.1.9",
+    "electron-packager": "^15.3.0"
+  },
+  "config": {
+    "forge": "./forge.config.js"
+  }
+}
